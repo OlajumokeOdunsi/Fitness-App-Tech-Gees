@@ -1,0 +1,1 @@
+// Landing page will be the one holding the pages, it will be the one holding the (header, footer, main)
