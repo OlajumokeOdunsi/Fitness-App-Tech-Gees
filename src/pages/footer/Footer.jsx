@@ -1,6 +1,6 @@
 // Landing page will be the one holding the pages, it will be the one holding the (header, footer, main)
 import React from 'react';
-import logo from "../../assets/logo.jpg"
+import logo from "../../assets/images/logo.jpg"
 import './Footer.css';
 
 const Footer = () => {

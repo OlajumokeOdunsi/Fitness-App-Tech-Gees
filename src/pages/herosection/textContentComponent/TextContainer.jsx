@@ -1,5 +1,5 @@
 import React from 'react'
-import style from "../textContainer/TextContainer.module.css"
+import style from "./TextContainer.module.css"
 
 const TextContainer = ({text}) => {
   return (
