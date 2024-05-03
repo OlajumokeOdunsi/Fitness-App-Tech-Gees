@@ -1,12 +1,13 @@
+
 // Landing page will be the one holding the pages, it will be the one holding the (header, footer, main)
 import React from 'react'
 import Carousl from './caroselComponenet/Carousl';
-import imageMock from "../../assets/mockups.png"
-import imageMock2 from "../../assets/mockup3.png"
+import style from "../herosection/caroselComponenet/Carousel.module.css"
+import imageMock from "../../assets/images/mockups.png"
+import imageMock2 from "../../assets/images/mockup3.png"
 import ImageComponent from './imagesComponent/ImageComponent';
-import Image3 from "../../assets/MOCKUP4.png"
-import style from "../../components/pages/caroselComponenet/Carousel.module.css"
-import TextContainer from './textContainer/TextContainer';
+import Image3 from "../../assets/images/MOCKUP4.png"
+import TextContainer from './textContentComponent/TextContainer';
 
 
 const Main = () => {

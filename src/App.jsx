@@ -1,10 +1,13 @@
 import './App.css'
-import Main from './components/pages/Main'
-import Footer from './components/pages/Footer'
+import Footer from './pages/footer/Footer'
+import LandingNav from './pages/nav/LandingNav'
+import Main from './pages/herosection/Main'
+
 function App() {
 
   return (
     <>
+    <LandingNav/>
     <Main/>
     <Footer/>
     </>

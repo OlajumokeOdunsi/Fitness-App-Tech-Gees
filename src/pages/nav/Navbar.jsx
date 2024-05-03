@@ -1,9 +1,9 @@
 import React from 'react'
 import { useState } from "react"
 import { Link } from "react-scroll"
-import { FaTimes } from "react-icons/fa"
+import { FaTimes } from "react-icons/fa";
 import { CgMenuGridO } from "react-icons/cg";
-import logo from '/public/logowhite.jpeg'
+import logo from "../../assets/images/logo.jpg"
 
 const Navbar = () => {
 

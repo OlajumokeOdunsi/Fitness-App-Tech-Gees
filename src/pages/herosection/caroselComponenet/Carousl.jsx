@@ -2,11 +2,12 @@ import React from "react";
 import { Carousel } from 'react-responsive-carousel';
 import style from "../caroselComponenet/Carousel.module.css"
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
-import image1 from "../../../assets/gym1.png"
-import image2 from "../../../assets/gyn2.png"
-import image3 from "../../../assets/gym3.png"
-import image4 from "../../../assets/photo-4.png"
-import image5 from "../../../assets/yoga.png"
+import image1 from "../../../assets/images/gym1.png"
+import image2 from "../../../assets/images/gyn2.png"
+import image3 from "../../../assets/images/gym3.png"
+import image4 from "../../../assets/images/photo-4.png"
+// import image5 from "../../assets/images/yoga.png"
+import image5 from "../../../assets/images/yoga.png"
 
 
 
