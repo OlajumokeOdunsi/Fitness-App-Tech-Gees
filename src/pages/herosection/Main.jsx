@@ -8,11 +8,14 @@ import imageMock2 from "../../assets/images/mockup3.png"
 import ImageComponent from './imagesComponent/ImageComponent';
 import Image3 from "../../assets/images/MOCKUP4.png"
 import TextContainer from './textContentComponent/TextContainer';
+import LandingNav from '../nav/LandingNav';
+import Footer from '../footer/Footer';
 
 
 const Main = () => {
   return (
     <>
+    <LandingNav/>
         <Carousl/>
         <div className={style.mainsec} id ="mainsec">
         <div>      
@@ -51,8 +54,8 @@ const Main = () => {
           <ImageComponent
           imagePicture={Image3}
           alt="mockImage3"
-
           />
+          <Footer/>
                  </div>
 
 
