@@ -1,0 +1,11 @@
+.footer{
+    background-color: aqua;
+    margin-top: 95%;
+    }
+ .foot{
+    display: flex;
+    margin: 2rem 3rem;
+    justify-content: center;
+    justify-content:space-between;
+
+    }
