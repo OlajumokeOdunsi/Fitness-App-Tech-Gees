@@ -2,7 +2,6 @@
 export default {
   content: [
     "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {
@@ -14,9 +13,3 @@ export default {
         'logo-color': '#137AF7',
         'shadow-color': 'rgba(0, 0, 0, 0.308)',
         'button': '#',
-      },
-
-    },
-  },
-  plugins: [],
-}
