@@ -8,11 +8,19 @@ import imageMock2 from "../../assets/images/mockup3.png"
 import ImageComponent from './imagesComponent/ImageComponent';
 import Image3 from "../../assets/images/MOCKUP4.png"
 import TextContainer from './textContentComponent/TextContainer';
+import { useNavigate } from 'react-router-dom';
+import LandingNav from '../nav/LandingNav';
+import Footer from '../footer/Footer';
 
 
 const Main = () => {
+  const navigate = useNavigate()
+  const handleLoginClick =()=>{
+    navigate("/login")
+  }
   return (
     <>
+    <LandingNav/>
         <Carousl/>
         <div className={style.mainsec} id ="mainsec">
         <div>      
@@ -27,9 +35,7 @@ const Main = () => {
              </div>
 
         <div className={style.btnHolder}>
-            {/* <Link to="#"> */}
-            <button className={style.btn}>JOIN NOW</button>
-            {/* </Link> */}
+            <button className={style.btn} onClick={handleLoginClick}>JOIN NOW</button>
         </div>
 
         <ImageComponent
@@ -51,8 +57,8 @@ const Main = () => {
           <ImageComponent
           imagePicture={Image3}
           alt="mockImage3"
-
           />
+          <Footer/>
                  </div>
 
 
